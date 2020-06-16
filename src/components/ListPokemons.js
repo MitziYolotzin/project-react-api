@@ -1,8 +1,9 @@
 import React from "react";
-import { getPokemons } from '../graphql/queries'
+import { getPokemons } from '../graphql/queries';
 import { useQuery } from "@apollo/react-hooks";
 
-
+import {CardPokemon} from './CardPokemon';
+import "bulma/css/bulma.css";
 
 export const ListPokemons = () => {
   const { loading, data, error } = useQuery(getPokemons)
@@ -10,13 +11,9 @@ export const ListPokemons = () => {
   if (error) return `Error: ${error}`
 
   return (
-    <div className="List">
+    <div className="container-list">
       {data.pokemons.map((pokemon, index) => (
-          <div className="container" key={index}>
-              <img src={pokemon.image} alt="pokemon"/>
-            <p>{ pokemon.name }</p>
-            
-          </div>
+        <CardPokemon key={index} {...pokemon}/>
       ))}
     </div>
   );

@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//import { ApolloClient } from 'apollo-boost';
 import { ApolloClient, HttpLink, InMemoryCache } from 'apollo-boost';
 import { ApolloProvider } from '@apollo/react-hooks';
 
@@ -16,19 +15,16 @@ import { Router } from "@reach/router";
 const client = new ApolloClient({
   link: new HttpLink({ uri: 'https://graphql-pokemon.now.sh/' }),
   cache: new InMemoryCache()
-  //uri: 'https://graphql-pokemon.now.sh/'
 });
 
 
 ReactDOM.render(
-  //<React.StrictMode>
   <ApolloProvider client={ client }>
     <Router>
       <App path="/" />
       <ListPokemons path="pokemons"/>
     </Router>
   </ApolloProvider>
-  //</React.StrictMode>,
   , document.getElementById('root')
 );
 

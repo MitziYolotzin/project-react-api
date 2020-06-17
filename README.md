@@ -6,10 +6,7 @@ App with development tools:
 - GraphQL
 - Bulma CSS
 
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Available Scripts for check this version App
 
 In the project directory, you can run:
 
@@ -28,3 +25,6 @@ You will also see any lint errors in the console.
 
 <a href="https://ibb.co/JqpLt6d"><img src="https://i.ibb.co/9h4XgKv/Captura-de-pantalla-2020-06-17-a-la-s-11-22-47.png" alt="Captura-de-pantalla-2020-06-17-a-la-s-11-22-47" border="0" /></a>
 <a href="https://ibb.co/T29FyVh"><img src="https://i.ibb.co/jfn1tc4/Captura-de-pantalla-2020-06-17-a-la-s-11-29-58.png" alt="Captura-de-pantalla-2020-06-17-a-la-s-11-29-58" border="0"></a>
+
+
+This project was created with [Create React App](https://github.com/facebook/create-react-app).

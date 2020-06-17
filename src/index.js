@@ -8,7 +8,8 @@ import './index.css';
 
 import App from './App';
 import { ListPokemons } from "./components/ListPokemons.js";
- 
+import { Pokemon } from "./components/Pokemon"; 
+
 import * as serviceWorker from './serviceWorker';
 import { Router } from "@reach/router";
 
@@ -23,6 +24,7 @@ ReactDOM.render(
     <Router>
       <App path="/" />
       <ListPokemons path="pokemons"/>
+      <Pokemon path="pokemon/:id"/>
     </Router>
   </ApolloProvider>
   , document.getElementById('root')

@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-First, install dependecies for correct funciont of app.
+Install dependecies for correct funciont of app.
 
 ### `npm start`
 

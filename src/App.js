@@ -1,23 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import pokeball from "./static/pokemon.svg";
+import "./App.css";
+import { Link } from "@reach/router";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={pokeball} className="pokeball" alt="pokeball" />
+        <h1>Hello!, What is your favorite Pokémon?</h1>
+        <Link to="pokemons">
+          <button class="button is-link is-rounded">Welcome</button>
+        </Link>
       </header>
     </div>
   );

@@ -1,3 +1,5 @@
+First, you can download or clone this repo.
+
 ## Available Scripts for check this version App
 
 In the project directory, you can run:

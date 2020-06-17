@@ -2,7 +2,7 @@
   "name": "project-react-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mitziyolotzin.github.io/td-reactapi",
+  "homepage": "https://mitziyolotzin.github.io/project-react-api",
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@reach/router": "^1.3.3",

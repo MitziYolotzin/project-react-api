@@ -1,9 +1,10 @@
+
 App with development tools:
 
--Apollo-Boost
--Graphql
--React JS
--Bulma
+- React JS
+- Apollo-Boost
+- GraphQL
+- Bulma CSS
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

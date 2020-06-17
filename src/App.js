@@ -1,6 +1,6 @@
-import React from 'react';
-import pokeball from './static/pokemon.svg';
-import './App.css';
+import React from "react";
+import pokeball from "./static/pokemon.svg";
+import "./App.css";
 import { Link } from "@reach/router";
 
 function App() {
@@ -8,9 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={pokeball} className="pokeball" alt="pokeball" />
-        <h1>
-          Hello!, What is your favorite Pokémon?
-        </h1>
+        <h1>Hello!, What is your favorite Pokémon?</h1>
         <Link to="pokemons">
           <button class="button is-link is-rounded">Welcome</button>
         </Link>

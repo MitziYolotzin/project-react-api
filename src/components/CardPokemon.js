@@ -16,7 +16,6 @@ export const CardPokemon = (item) => {
             <p className="subtitle is-6">{types}</p>
           </div>
         </div>
-       
       </div>
     </div>
   );

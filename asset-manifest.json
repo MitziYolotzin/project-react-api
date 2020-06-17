@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/project-react-api/static/css/main.9ea86d8c.chunk.css",
+    "main.js": "/project-react-api/static/js/main.8a21ce7c.chunk.js",
+    "main.js.map": "/project-react-api/static/js/main.8a21ce7c.chunk.js.map",
+    "runtime-main.js": "/project-react-api/static/js/runtime-main.380b3712.js",
+    "runtime-main.js.map": "/project-react-api/static/js/runtime-main.380b3712.js.map",
+    "static/css/2.0c0672e5.chunk.css": "/project-react-api/static/css/2.0c0672e5.chunk.css",
+    "static/js/2.c3c5477a.chunk.js": "/project-react-api/static/js/2.c3c5477a.chunk.js",
+    "static/js/2.c3c5477a.chunk.js.map": "/project-react-api/static/js/2.c3c5477a.chunk.js.map",
+    "index.html": "/project-react-api/index.html",
+    "precache-manifest.b5e991227604a3cc58cf21676e02988a.js": "/project-react-api/precache-manifest.b5e991227604a3cc58cf21676e02988a.js",
+    "service-worker.js": "/project-react-api/service-worker.js",
+    "static/css/2.0c0672e5.chunk.css.map": "/project-react-api/static/css/2.0c0672e5.chunk.css.map",
+    "static/css/main.9ea86d8c.chunk.css.map": "/project-react-api/static/css/main.9ea86d8c.chunk.css.map",
+    "static/js/2.c3c5477a.chunk.js.LICENSE.txt": "/project-react-api/static/js/2.c3c5477a.chunk.js.LICENSE.txt",
+    "static/media/pokemon.svg": "/project-react-api/static/media/pokemon.6058de96.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.380b3712.js",
+    "static/css/2.0c0672e5.chunk.css",
+    "static/js/2.c3c5477a.chunk.js",
+    "static/css/main.9ea86d8c.chunk.css",
+    "static/js/main.8a21ce7c.chunk.js"
+  ]
+}

@@ -37,6 +37,12 @@
   }
 }
 
+.button-load {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 2rem;
+}
 
 .container-list {
   display: flex;

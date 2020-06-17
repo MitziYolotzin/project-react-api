@@ -7,7 +7,7 @@ import "bulma/css/bulma.css";
 
 export const ListPokemons = () => {
   const { loading, data, error } = useQuery(getPokemons)
-  if (loading) return  <button class="button is-link is-loading is-medium">Loading</button>
+  if (loading) return <div className="button-load"> <button class="button is-link is-loading is-large">Loading</button> </div>
   if (error) return `Error: ${error}`
 
   return (
